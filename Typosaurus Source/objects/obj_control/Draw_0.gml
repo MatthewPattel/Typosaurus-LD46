@@ -15,8 +15,6 @@ if (global.game_room == R_LEVEL) {
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	draw_text(wd*0.5, hd*0.5, "SCORE: " + string(global.game_data[? G_SCORE]));
-	draw_text(wd*0.5, hd*2.5, "diff_goal: " + string(difficulty_goal));
-	draw_text(wd*0.5, hd*4.5, "diff_rise: " + string(difficulty_rise));
 }
 
 if (global.game_room == R_LOSER) {
